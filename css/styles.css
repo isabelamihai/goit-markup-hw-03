@@ -66,6 +66,21 @@ ul{
     color:var(--color-hover);
 }
 
+.header-container {
+    max-width: 1200px;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-left: 156px;
+    margin-right: 156px;
+}
+
+.nav-container {
+    display:flex;
+    width: 181px;
+    gap:40px;
+}
+
 .hero-section {
     background-color: var(--title-color);
     }
@@ -94,6 +109,7 @@ h3 {
     line-height:1.2;
     /* letter-spacing: 2%; */
 }
+
 .service-button {
     font-weight: 500;
     font-size: 16px;
