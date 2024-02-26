@@ -48,6 +48,17 @@
     justify-content: center;
 }
 
+.first-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.first-section li{
+ width: 264px;
+ margin: 24px;
+}
+
 .logo::before,
 .end-section .end-logo::before {
     content: "WEB";
