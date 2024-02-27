@@ -36,18 +36,21 @@
 
 .test-container{
     display: flex;
-    align-items: center;
+    align-items:center;
     gap: 76px;
 }
 
-.hero-container {
-    height: 600px;
+.title-container{
     display:flex;
-    flex-direction:column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    margin-top:188px;
 }
 
+.button-container{
+    display: flex;
+    justify-content: center;
+}
 .first-container {
     display: flex;
     justify-content: center;
@@ -56,9 +59,53 @@
 
 .first-section li{
  width: 264px;
+ height: 104px;
  margin: 24px;
 }
 
+.second-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:72px;
+}
+
+ .second-title {
+    display:flex;
+    justify-content:center;
+    margin-top:120px;
+}
+
+.second-section li{
+    margin: 24px;
+}
+
+.third-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 72px;
+}
+
+.third-section li{
+    margin:24px;
+    width: 264px;
+    height: 380px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.last-container{
+    display: flex;
+    align-content:center;
+    flex-direction:column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 264px;
+    height: 112px;
+    margin-left:20px;
+
+}
 .logo::before,
 .end-section .end-logo::before {
     content: "WEB";
@@ -130,9 +177,9 @@ ul{
 h1 {
     font-weight: 700; 
     font-size: 56px;
+    text-align: center;
     line-height: 1.07;
     color: #ffffff;
-    align-self: center;
     width: 496px;
     height: 120px;
     /* letter-spacing: 2%; */
@@ -158,6 +205,7 @@ h3 {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    text-align: center;
     color: #ffffff;
     border-radius: 4px;
     border-color: var(--title-color);
@@ -190,11 +238,15 @@ h3 {
    background-color:var(--color-hover);
 }
 
-.section-card{
+.third-section {
     background-color: var(--nav-buton-color);
+    height: 732px;
+    margin-top: 120px;
 }
 .end-section{
     background-color:var(--title-color);
+    height: 312px;
+    width: auto;
 }
 .end-section .end-text {
     color:var(--nav-buton-color);
